@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('li').on('dbclick', function() {
+    $('li').on('dblclick', function() {
         $(this).animate({
                 opacity: 0.0,
                 paddingTop: '+=700',
@@ -10,6 +10,7 @@ $(document).ready(function() {
             },
         );
     });
+
     $('button').on('click', function() {
         var content = $('input:eq(0)').val();
         $('input:eq(4)').val(content);
@@ -22,5 +23,6 @@ $(document).ready(function() {
             },
         );
         document.getElementById('newList').innerHTML = content;
+
     });
 });
