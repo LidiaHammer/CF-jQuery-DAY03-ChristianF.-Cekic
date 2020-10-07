@@ -10,16 +10,25 @@ for (var i = 0; i < jsonData.length; i++) {
 
     $(`#${i}`).append(`<br><span id="stock${i}" class="stock"> In stock: ${jsonData[i].stock}</span>`);
 
+    $(`#${i}`).append(`<br><button id="buy"> Buy me </button>`);
+
+
+
 
 
 
     if (jsonData[i].type == "phone") {
-        $(this).css("color", "blue");
+        $(`#${i}`).css("background-color", "green");
 
-        // $(`#${i}`).css("background-color", "white");
+    } else if (jsonData[i].type == "laptop") {
+        $(`#${i}`).css("background-color", "red");
 
-
+    } else if (jsonData[i].type == "Tablet") {
+        $(`#${i}`).css("background-color", "blue");
     }
 
 
 }
+
+// $("#buy").on("click", function () {
+// var index =

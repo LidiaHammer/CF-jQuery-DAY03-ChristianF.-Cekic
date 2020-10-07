@@ -2,3 +2,8 @@ img {
     width: 10em;
     height: 10em;
 }
+
+div {
+    margin: 5em;
+    text-align: center;
+}

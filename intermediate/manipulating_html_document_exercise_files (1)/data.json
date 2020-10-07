@@ -55,6 +55,26 @@ var data = `[ {
     "type" : "Tablet",
     "stock" : 45
     
+},
+{
+
+    "name": "Lidia Phone",
+    "img" : "img/Lidia_phone.jpg",
+    "price": 1000000,
+    "description": "is BESTE!!!",
+    "type" : "phone",
+    "stock" : 1
+    
+},
+{
+
+    "name": "Lidia Tablet",
+    "img" : "img/Lidia_tablet.jpg",
+    "price": "Price on Request",
+    "description": "!!! voi cool !!!",
+    "type" : "Tablet",
+    "stock" : 1
+    
 }
 
 
